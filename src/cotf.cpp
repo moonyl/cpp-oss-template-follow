@@ -1,7 +1,7 @@
 #include "cotf.h"
 #include <iostream>
 
-void about()
+int add(int x, int y)
 {
-    std::cout << "cotf is cpp-oss-template-follow" << std::endl;
+    return x + y;
 }

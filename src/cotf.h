@@ -1,2 +1,2 @@
 #pragma once
-void about();
+int add(int x, int y);
