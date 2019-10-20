@@ -2,10 +2,10 @@
 
 set -e
 
-exports NUM_JOBS=1
+export NUM_JOBS=1
 
 mkdir build
 cd build
 cmake ..
 make
-bin/unitTests
+bin/unitTest
